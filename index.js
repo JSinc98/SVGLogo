@@ -40,17 +40,17 @@ function createLogo(data) {
     switch (data.shape) {
         case 'Triangle':
             const triangle = new Triangle();
-            shapeRender = triangle.setColour(data.objectColour);
+            shapeRender = triangle.setColour(data.shapeColour);
             format = `<text x="150" y="140" font-size="40" text-anchor="middle" fill="${data.textColour.toLowerCase()}">${data.characters}</text>`;
             break;
         case 'Circle':
             const circle = new Circle();
-            shapeRender = circle.setColour(data.objectColour);
+            shapeRender = circle.setColour(data.shapeColour);
             format = `<text x="150" y="115" font-size="40" text-anchor="middle" fill="${data.textColour.toLowerCase()}">${data.characters}</text>`;
             break;
         case 'Square':
             let square = new Square();
-            shapeRender = square.setColour(data.objectColour);
+            shapeRender = square.setColour(data.shapeColour);
             format = `<text x="100" y="110" font-size="40" text-anchor="middle" fill="${data.textColour.toLowerCase()}">${data.characters}</text>`;
             break;
     }

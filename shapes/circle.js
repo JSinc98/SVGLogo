@@ -1,7 +1,7 @@
 class Circle {
     constructor() { }
-    setColour(objectColour) {
-        return `<circle cx="150" cy="100" r="80" fill="${objectColour}" />`;
+    setColour(shapeColour) {
+        return `<circle cx="150" cy="100" r="80" fill="${shapeColour}" />`;
     };
 };
 

@@ -1,7 +1,7 @@
 class Square {
     constructor() { }
-    setColour(objectColour) {
-        return `<rect width="250" height="250" fill="${objectColour}" />`;
+    setColour(shapeColour) {
+        return `<rect width="250" height="250" fill="${shapeColour}" />`;
     };
 };
 
